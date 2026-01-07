@@ -47,7 +47,7 @@ export const users = [
             },
             {
                 "tittle": "Flag",
-                "content": "SnapanCTF{E4SY_R1GHT??}"
+                "content": "SnapanCTF{E4SY_R1GHT??!}"
             },
             {
                 "tittle": "Lorem Ipsum",
