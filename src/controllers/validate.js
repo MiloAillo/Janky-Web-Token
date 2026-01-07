@@ -5,6 +5,8 @@ export const validate = (req, res) => {
     const token = req.headers.authorization || null
     console.info(token)
 
+    if (!token) return res.status(400).json({ "status": "error", "message": "Token doesn't exist in header, cannot validate!" })
+
     const prefix = token.split(" ")[0]
     const jwtToken = token.split(" ")[1]
 
