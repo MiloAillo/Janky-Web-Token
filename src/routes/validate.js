@@ -3,4 +3,4 @@ import { validate } from '../controllers/validate'
 
 const Router = express.Router()
 
-export const loginRoute = Router.get('/', validate)
+export const validateRoute = Router.get('/', validate)
